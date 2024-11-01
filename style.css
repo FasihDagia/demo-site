@@ -53,6 +53,7 @@ header {
 #home {
     background-image: url('images/home.jpeg');
     height: 73vh;
+    background-repeat: no-repeat;
 }
 
 #homepage {
