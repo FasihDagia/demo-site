@@ -124,3 +124,86 @@ header {
     background-color: rgba(255, 127, 80, 0.659);
     transition: 0.5s;
 }
+
+#about{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#ab-heading{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ab-line{
+    height: 1vh;
+    width: 40vw;
+    border-bottom: 0.7px solid black;
+    margin-top: 47px;
+}
+
+#ab-txt{
+    font-size: 35px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#our-story{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#our-story-txt-span{
+    color: rgb(69, 69, 69);
+    font-size: 23px;
+    margin: 25px;
+}
+
+#our-story-txt-p{
+    text-wrap: wrap;
+    width: 20vw;
+    margin-top: 30px;
+    color: rgb(69, 69, 69);
+}
+
+#our-story-txt h2{
+    margin-top: 35px;
+    width: 15vw;
+    font-size: 30px;
+}
+
+#our-story-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#our-story-img-1{
+    width: 23vw;
+    padding: 35px;
+    border-radius: 3rem;
+}
+
+#our-story-img-2{
+    width: 23vw;
+    padding: 35px;
+    border-radius: 3rem;
+}
+
+#mn-heading{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mn-line{
+    height: 1vh;
+    width: 40vw;
+    border-bottom: 0.7px solid black;
+    margin-top: 47px;
+}
+
+#mn-txt{
+    font-size: 35px;
+    margin-top: 40px;
+    font-weight: bold;
+}
