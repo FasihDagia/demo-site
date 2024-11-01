@@ -15,6 +15,11 @@ header {
     height: auto;
 }
 
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+}
+
 #nav {
     margin-right: 100px;
     display: flex;
@@ -38,8 +43,82 @@ header {
     transition: 0.2s;
 }
 
-#NAME{
-    font-size: 25px;
+#NAME {
+    font-size: 35px;
     font-weight: bolder;
-    margin-top: 35px;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+#home {
+    background-image: url('images/home.jpeg');
+    height: 73vh;
+}
+
+#homepage {
+    height: 73vh;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#intro {
+    margin-top: 22vh;
+    padding-top: 5vh;
+}
+
+#intr {
+    color: white;
+    font-size: 33px;
+    margin-left: 13vw;
+}
+
+#introp {
+    color: white;
+    font-size: 23px;
+    text-wrap: wrap;
+    margin-top: 28px;
+    margin-left: 14vw;
+    width: 30vw;
+    text-align: center;
+}
+
+#intro-btn {
+    margin-top: 30vh;
+    margin-right: 15vw;
+    padding: 30px;
+}
+
+#order-now {
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: coral;
+    font-size: 19px;
+    border-radius: 3px;
+}
+
+#order-now:hover {
+    border-radius: 7px;
+    background-color: rgba(255, 127, 80, 0.659);
+    transition: 0.5s;
+}
+
+#reserve-now{
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: coral;
+    font-size: 19px;
+    border-radius: 3px;
+}
+
+#reserve-now:hover{
+    border-radius: 7px;
+    background-color: rgba(255, 127, 80, 0.659);
+    transition: 0.5s;
 }
