@@ -54,6 +54,7 @@ header {
     background-image: url('images/home.jpeg');
     height: 73vh;
     background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 #homepage {
