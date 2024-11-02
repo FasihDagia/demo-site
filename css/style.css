@@ -16,7 +16,10 @@ header {
 }
 
 #nav1 {
+    height: auto;
+    width: 100vw;
     display: flex;
+    background-color: white;
     justify-content: space-between;
 }
 
@@ -51,7 +54,7 @@ header {
 }
 
 #home {
-    background-image: url('images/home.jpeg');
+    background-image: url('/images/home.jpeg');
     height: 73vh;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
